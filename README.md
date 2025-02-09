@@ -34,7 +34,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/switch41/prediction-market
 cd prediction-market
 ```
 
@@ -62,6 +62,7 @@ ganache-cli
 ### Running the Frontend
 
 ```bash
+cd frontend // move to frontend folder
 npm start
 ```
 
