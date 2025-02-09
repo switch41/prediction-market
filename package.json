@@ -1,0 +1,28 @@
+{
+  "name": "prediction-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
