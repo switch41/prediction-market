@@ -93,7 +93,7 @@ Feel free to submit **pull requests** for improvements and additional features!
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is open-source and licensed under the MIT License.
 
 ## Contact
 
