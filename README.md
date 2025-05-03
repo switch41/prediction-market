@@ -8,7 +8,6 @@ A modern, full-stack blockchain-based prediction market built on Ethereum. Users
 - [Features](#features)
 - [Workflow](#workflow)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
 - [Customization](#customization)
@@ -40,6 +39,25 @@ A modern, full-stack blockchain-based prediction market built on Ethereum. Users
 
 ---
 
+## Visual Workflow
+```mermaid
+graph TD
+    A[Connect MetaMask Wallet] --> B[Create Prediction Event]
+    B --> C[Event Listed in Market]
+    C --> D[Users Analyze/Contribute Insights]
+    D --> E[Event End Time Reached]
+    E --> F[Owner Resolves Event]
+    F --> G[Event Moves to Previous Events]
+    G --> H[Users View Stats & History]
+```
+## Technologies Used
+
+- Blockchain: Ethereum (Smart Contracts written in Solidity)
+- Frontend: React.js, Bootstrap
+- Backend: Web3.js for blockchain communication
+- Development Tools: Truffle, Ganache, MetaMask
+
+---
 ## Installation
 ### Prerequisites
 - Node.js (v16+ recommended)
@@ -73,8 +91,6 @@ A modern, full-stack blockchain-based prediction market built on Ethereum. Users
 ---
 
 
-
----
 
 ## Project Structure
 ```
@@ -124,73 +140,15 @@ README.md
 - Kushal Parihar ([@switch41](https://github.com/switch41))
 
 ---
-
 ## License
-This project is licensed under the MIT License.
+This project is liscend under the MIT 
 
-## Technologies Used
-
-- Blockchain: Ethereum (Smart Contracts written in Solidity)
-- Frontend: React.js, Bootstrap
-- Backend: Web3.js for blockchain communication
-- Development Tools: Truffle, Ganache, MetaMask
-
-## Installation & Setup
-
-### Prerequisites
-
-Ensure you have the following installed:
-- Node.js
-- Ganache
-- Truffle
-- MetaMask browser extension
-
-### Clone the Repository
-
-git clone https://github.com/switch41/prediction-market
-cd prediction-market
-
-### Install Dependencies
-
-npm install
-
-### Smart Contract Deployment
-
-truffle compile
-truffle migrate --reset
-
-### Running the Local Blockchain
-
-Start Ganache and ensure it's connected to Truffle:
-ganache-cli
-
-### Running the Frontend
-
-cd frontend
-npm start
-
-## Usage
-
-1. Connect MetaMask to interact with the contract.
-2. Create Predictions by setting a question and deadline.
-3. View Active Predictions and interact with the contract.
-
-
-
-## Contributing
-
-Feel free to submit pull requests for improvements and additional features!
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions, reach out via GitHub or email.
-
+---
 ## Works that still need to be addressed
 
-Tesing has not been done yet
- Any suggestions and useful changes are appreciated.
+Tesing has not been done yet,
+Feel free to submit pull requests for improvements and additional features!
+Any suggestions and useful changes are appreciated.
+
+
 
