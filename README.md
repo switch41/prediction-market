@@ -189,7 +189,11 @@ Feel free to submit pull requests for improvements and additional features!
 
 ## License
 
+<<<<<<< HEAD
 This project is licensed under the MIT License.
+=======
+This project is open-source and licensed under the MIT License.
+>>>>>>> cebfa7e6f41668a725563d77bea0f7596bab7e39
 
 ## Contact
 
