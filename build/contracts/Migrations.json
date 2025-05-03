@@ -74,7 +74,7 @@
   "sourceMap": "61:520:0:-;;;263:58;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;295:5:0;:18;;-1:-1:-1;;;;;;295:18:0;303:10;295:18;;;61:520;;;;;;",
   "deployedSourceMap": "61:520:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:520:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;115:36;;;:::i;:::-;;;;;;;;;;;;;;;;88:20;;;:::i;:::-;;;;-1:-1:-1;;;;;88:20:0;;;;;;;;;;;;;;505:73;;;:::i;:::-;;;;;;;;;;;;;;;;;;329:111;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;329:111:0;;:::i;:::-;;115:36;;;;:::o;88:20::-;;;-1:-1:-1;;;;;88:20:0;;:::o;505:73::-;566:4;505:73;:::o;329:111::-;215:5;;-1:-1:-1;;;;;215:5:0;201:10;:19;193:42;;;;;-1:-1:-1;;;193:42:0;;;;;;;;;;;;-1:-1:-1;;;193:42:0;;;;;;;;;;;;;;;396:24;:36;329:111::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.5.16;\r\n\r\ncontract Migrations {\r\n    address public owner;\r\n    uint public last_completed_migration;\r\n\r\n    modifier restricted() {\r\n        require(msg.sender == owner, \"Only owner\");\r\n        _;\r\n    }\r\n\r\n    constructor() public {\r\n        owner = msg.sender;\r\n    }\r\n\r\n    function setCompleted(uint completed) public restricted {\r\n        last_completed_migration = completed;\r\n    }\r\n    \r\n    // Add dummy function to reduce deployment cost\r\n    function empty() public pure returns(bool) {\r\n        return true;\r\n    }\r\n}",
-  "sourcePath": "S:\\prediction-market\\contracts\\Migrations.sol",
+  "sourcePath": "S:\\prediction-market ( MINI )\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -191,7 +191,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 397,
+                            "referencedDeclaration": 655,
                             "src": "201:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -267,10 +267,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        400,
-                        401
+                        658,
+                        659
                       ],
-                      "referencedDeclaration": 401,
+                      "referencedDeclaration": 659,
                       "src": "193:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -352,7 +352,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 397,
+                        "referencedDeclaration": 655,
                         "src": "303:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -771,10 +771,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                400,
-                                401
+                                658,
+                                659
                               ],
-                              "referencedDeclaration": 401,
+                              "referencedDeclaration": 659,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -815,7 +815,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 397,
+                                      "referencedDeclaration": 655,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -974,7 +974,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 397,
+                                  "referencedDeclaration": 655,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1268,12 +1268,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xDD6cf3764a30C9E66137BfEbe74beBBD3E5da003",
-      "transactionHash": "0x7231b9e08d952da95beb92bfce9d80d074e8039b7fdd3f573adcebb27cbebfa0"
+      "address": "0xB985e438b1d622EB06D6d2Ce93A89429F52EC8E8",
+      "transactionHash": "0xa4a569fdc6bdb0cfa1c2f324252b35153afd25aa4d57cedd4e66025ffabe7a5d"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-02-09T16:07:41.014Z",
+  "updatedAt": "2025-05-03T19:39:08.256Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
